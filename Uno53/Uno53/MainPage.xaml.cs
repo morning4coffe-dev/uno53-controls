@@ -6,6 +6,6 @@ public sealed partial class MainPage : Page
     {
         this.InitializeComponent();
 
-        //SwappableLayoutsItemsView.ItemsSource = CustomDataObject.GetDataObjects(true);
+        SwappableLayoutsItemsView.ItemsSource = CustomDataObject.GetDataObjects(true);
     }
 }

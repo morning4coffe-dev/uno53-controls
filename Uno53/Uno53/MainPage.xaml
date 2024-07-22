@@ -4,7 +4,7 @@
       xmlns:local="using:Uno53"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-  <!--<Page.Resources>
+  <Page.Resources>
     <DataTemplate x:Key="LinedFlowLayoutItemTemplate"
                   x:DataType="local:CustomDataObject">
       <ItemContainer AutomationProperties.Name="{x:Bind Title}">
@@ -34,7 +34,7 @@
         </Grid>
       </ItemContainer>
     </DataTemplate>
-  </Page.Resources>-->
+  </Page.Resources>
 
   <StackPanel HorizontalAlignment="Center"
               VerticalAlignment="Center" Spacing="50">
@@ -54,17 +54,17 @@
                        Icon="Favorite" />
     </SelectorBar>
 
-    <!--<ItemsView x:Name="SwappableLayoutsItemsView"
+    <ItemsView x:Name="SwappableLayoutsItemsView"
                Width="500"
                Height="400"
                HorizontalAlignment="Left"
-               >--><!--ItemTemplate="{StaticResource LinedFlowLayoutItemTemplate}"--><!--
+               ItemTemplate="{StaticResource LinedFlowLayoutItemTemplate}">
       <ItemsView.Layout>
         <LinedFlowLayout ItemsStretch="Fill"
                          LineHeight="160"
                          LineSpacing="5"
                          MinItemSpacing="5" />
       </ItemsView.Layout>
-    </ItemsView>-->
+    </ItemsView>
   </StackPanel>
 </Page>
