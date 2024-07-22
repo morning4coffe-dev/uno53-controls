@@ -22,7 +22,7 @@ public class CustomDataObject
             };
 
         Random rand = new Random();
-        int numberOfLocations = includeAllItems ? 10 : 8;
+        int numberOfLocations = includeAllItems ? 100 : 8;
         List<CustomDataObject> objects = new List<CustomDataObject>();
         for (int i = 0; i < numberOfLocations; i++)
         {

@@ -7,5 +7,7 @@ public sealed partial class MainPage : Page
         this.InitializeComponent();
 
         SwappableLayoutsItemsView.ItemsSource = CustomDataObject.GetDataObjects(true);
+
+        //this.RequestedTheme = ElementTheme.Dark;
     }
 }
